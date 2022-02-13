@@ -1,0 +1,95 @@
+/* Image Styling */
+img{
+    width: 200px;
+    height: 200px;
+  
+     }
+  
+  
+  /*Nav Styling*/
+  nav ul {
+    display: flex;
+    list-style-type: none;
+    justify-content: space-around;
+  }
+  nav{
+    background-color: #D1E8E4;
+    font-family: 'Roboto', sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+    padding: 2px;
+    margin-bottom: 20px;
+  }
+  /*Body Styling*/
+  body{
+    background-color: #FAE0DF;
+    
+  }
+  h1{
+    text-align: center;
+    font-family: 'Days One', sans-serif;
+  }
+  
+  section{
+    font-family: 'Roboto', sans-serif;
+    background-color: #FBF8F1;
+    width: 80%;
+    margin: auto;
+    padding-left: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+      }
+    .borger, .cupcake, .stcake, .tart{
+      display: grid;
+      grid-template-areas:  "h h"
+                            "i t"
+                            "i t" ;
+   
+    }
+    h3{
+      grid-area: h;
+      text-align: center;
+    }
+   .borg-img, .St-img, .tart-img, .choco-img{
+     grid-area: i;
+  
+   }
+  section  p{
+     grid-area: t;
+     grid-row-start: 2;
+     grid-row-end: 3;
+   }
+  
+  /* Link Styling*/
+  a{
+    text-decoration: none;
+    color: white;
+  }
+  p{
+  color: black;
+  margin-left: 20px;
+  font-family: 'Roboto', sans-serif;
+}
+
+  h3{
+    color: black;
+    }
+  main{
+      font-family: 'Roboto', sans-serif;
+      background-color: #FBF8F1;
+      padding: 10px;
+      width: 80%;
+      margin: auto;
+      display:grid;
+      grid-template-columns: 1fr 1fr;
+      justify-content: stretch;
+      
+  }
+  h2{
+    font-family: 'Days One', sans-serif;
+
+  }
+.header{
+margin-left: 120px;  }
+  
+  
